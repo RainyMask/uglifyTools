@@ -1,0 +1,23 @@
+{
+  "name": "uglifytools",
+  "version": "1.0.0",
+  "description": "小程序源码压缩/处理",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "file:./lib/gulp-clean-css",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "lazypipe": "^1.0.2"
+  }
+}
